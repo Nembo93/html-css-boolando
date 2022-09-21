@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
 }
-.art-2, .art-5{
-    margin-left: 20px;
-    margin-right: 20px;
+/* TYPOGRAPHY */
+body{
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 /* HEADER */
 header{
@@ -35,10 +36,12 @@ header{
 /* MAIN */
 .container{
     margin: auto;
-    margin-top: 50px;
-    max-width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 850px;
     background-color: gray;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 /* Immagini articolo */
@@ -49,12 +52,12 @@ header{
     
 }
 .img-top{
-    width: 230px;
+    width: 250px;
     height: 380px;
     display: block;
 }
 .img-bot{
-    width: 230px;
+    width: 250px;
     height: 380px;
     display: none; 
 }
@@ -84,7 +87,6 @@ header{
     bottom: 70px;
     left: 40px;
 }
-
 .cuore{
     width: 30px;
     height: 30px;
@@ -95,9 +97,16 @@ header{
     top: 10px;
     right: 0px;
 }
+.art-2, .art-5{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 /* Info artricolo */
+.info-articolo{
+    margin-top: 5px;
+}
 .first-price{
     
 }
@@ -112,14 +121,28 @@ footer{
     color: white;
 }
 .fo-box{
+    margin: auto;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     max-width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .fo-box a{
     color: white;
     text-decoration: none;
     font-size: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+}
+.fo-sx{
+    text-align: left;
+}
+.fo-dx div{
+    font-size: 12px;
+    text-align: center;
+}
+.fo-dx i{
+    font-size: 16px;
+    margin: 5px 5px 5px 5px;
 }
