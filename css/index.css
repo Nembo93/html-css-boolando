@@ -9,7 +9,7 @@
 header{
     background-color: orange;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
 }
 .box-header{
     display: flex;
@@ -30,17 +30,18 @@ header{
 
 /* MAIN */
 .container{
-    width: 100%;
-    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: gray;
     display: flex;
 }
 /* Immagini articolo */
-/* .articolo{
-    
+.articolo{
+    position: relative;
 }
 .img-articolo{
     
-} */
+}
 .img-top{
     width: 230px;
     height: 380px;
@@ -66,9 +67,28 @@ header{
     display: inline-block;
     background-color: red;
     color: white;
+    position: absolute;
+    bottom: 80px;    
 }
 .sostenibile{
     display: inline-block;
     background-color: green;
     color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
 }
+
+.cuore{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+/* Info artricolo */
