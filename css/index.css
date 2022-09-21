@@ -1,0 +1,47 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: orange;
+    width: 600px;
+    height: 40px;
+}
+.box-header a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 80px;
+}
+
+/* Main */
+.img-top{
+    width: 230px;
+    height: 400px;
+    display: block;
+}
+.img-bot{
+    width: 230px;
+    height: 400px;
+    display: none; 
+}
+:hover .img-top{
+    display: none;
+}
+:hover .img-bot{
+    display: block;
+}
